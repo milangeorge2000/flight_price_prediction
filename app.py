@@ -355,7 +355,7 @@ def predict():
         ]])
 
         output=round(prediction[0],2)
-        print(output)
+#         print(output)
 
         return render_template('third.html',prediction_text="Your Flight price is Rs. {}".format(output))
 
