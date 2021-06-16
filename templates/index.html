@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+	<title>Flight Price Predictor</title>
+
+
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400" rel="stylesheet">
+
+
+	<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">  
+
+	<link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">  
+
+
+</head>
+
+<body>
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="booking-form">
+						<form action="/predict" method="post">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Source</span>
+										<select name="Destination" class="form-control" required="required">
+										<option value="Cochin">Cochin</option>
+										<option value="Banglore">Banglore</option>
+										<option value="Delhi">Delhi</option>
+										<option value="Hyderabad">Hyderabad</option>
+										<option value="Kolkata">Kolkata</option>
+										<option value="NewDelhi">NewDelhi</option>
+										
+									</select>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Destination</span>
+										<select name="Source" class="form-control" required="required">
+
+											<option value="Chennai">Chennai</option>
+											<option value="Delhi">Delhi</option>
+											<option value="Kolkata">Kolkata</option>
+											<option value="Mumbai">Mumbai</option>
+											<option value="Banglore">Banglore</option>
+											
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Departure Time</span>
+										<input class="form-control" type="datetime-local" required name="Dep_Time">
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Arrival Time</span>
+										<input class="form-control" type="datetime-local" required name="Arrival_Time">
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="form-group">
+										<span class="form-label">Stops</span>
+										<select name="stops"  class="form-control" required="required">
+											<option value="0">Non-Stop</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+								</select>
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+								
+								<!-- </div>
+							</div> -->
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Airlines</span>
+										<select name="airline" class="form-control" required="required">
+											<option value="Jet Airways">Jet Airways</option>
+											<option value="IndiGo">IndiGo</option>
+											<option value="Air India">Air India</option>
+											<option value="Multiple carriers">Multiple carriers</option>
+											<option value="SpiceJet">SpiceJet</option>
+											<option value="Vistara">Vistara</option>
+											<option value="Air Asia">Air Asia</option>
+											<option value="GoAir">GoAir</option>
+											<option value="Multiple carriers Premium economy">Multiple carriers Premium economy
+											</option>
+											<option value="Jet Airways Business">Jet Airways Business</option>
+											<option value="Vistara Premium economy">Vistara Premium economy</option>
+											<option value="Trujet">Trujet</option>
+										 </select>  
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-btn">
+										<input type="submit" class="submit-btn" value="Submit" name="Submit">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
