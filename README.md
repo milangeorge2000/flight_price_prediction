@@ -18,6 +18,7 @@
 
 
 ## Demo
+Link :- https://flight-predictor126.herokuapp.com/
 [![](https://github.com/milangeorge2000/flight_price_prediction/blob/main/static/img/Screenshot%20(57).png?raw=true)](https://github.com/milangeorge2000/flight_price_prediction/blob/main/static/img/Screenshot%20(58).png?raw=true)
 
 ## Overview
