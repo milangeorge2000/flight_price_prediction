@@ -18,7 +18,7 @@
 
 
 ## Demo
-[![](https://github.com/milangeorge2000/Mammootty_Mohanlal_Classifier/blob/main/static/ee575888-1427-410c-8d68-c41bf58afa86.jpg?raw=true)](https://github.com/milangeorge2000/Mammootty_Mohanlal_Classifier/blob/main/static/d3b760c1-857b-48fa-bf96-f53ef273b9c9.jpg?raw=true)
+[![](https://github.com/milangeorge2000/flight_price_prediction/blob/main/static/img/Screenshot%20(57).png?raw=true)](https://github.com/milangeorge2000/flight_price_prediction/blob/main/static/img/Screenshot%20(58).png?raw=true)
 
 ## Overview
 This is a simple flask application which predicts the price of a flight when the required parameters are given as input.
