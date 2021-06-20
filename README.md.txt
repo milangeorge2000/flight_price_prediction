@@ -1,7 +1,3 @@
-## Hosted at AWS EC2 
- http://ec2-18-133-180-187.eu-west-2.compute.amazonaws.com:8080/
-1
-
 
 # Flight Price Predictor
 
@@ -34,7 +30,7 @@ I was always in a thought process of on what terms the flights are charging thei
 All the main aspects of a Data Science Project is Done here which inlucdes:
 1. Exploratory Data Analysis
 2. Feature Engineering
-3. Feature Selection
+3. Feature Selection(All features are passed to the model)
 4.Training
 5.Testing
 6.Deployment
@@ -82,7 +78,8 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png" width=200>](https://pytorch.org/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://miro.medium.com/max/750/1*q6F0j8HFHd8jeYXyQBqrCQ.jpeg" width=200>](https://aws.amazon.com/ec2/)
+[<img target="_blank" src="https://www.google.co.in/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40julie.yin%2Funderstanding-the-data-splitting-functions-in-scikit-learn-9ae4046fbd26&psig=AOvVaw3_aONR75-xZROh2aG4T8a1&ust=1624290613136000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCODh7rXIpvECFQAAAAAdAAAAABAO" width=200>](https://scikit-learn.org/stable/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://miro.medium.com/max/750/1*q6F0j8HFHd8jeYXyQBqrCQ.jpeg" width=200>](https://aws.amazon.com/ec2/)
+
 
 ## License
 [![Apache license](https://img.shields.io/badge/license-apache-blue?style=for-the-badge&logo=appveyor)](http://www.apache.org/licenses/LICENSE-2.0e)
