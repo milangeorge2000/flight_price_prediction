@@ -78,7 +78,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 
-[<img target="_blank" src="https://miro.medium.com/max/1258/1*_HoMKjrWahRiI-JmwYW6zg.png" width=200>](https://scikit-learn.org/stable/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://miro.medium.com/max/750/1*q6F0j8HFHd8jeYXyQBqrCQ.jpeg" width=200>](https://aws.amazon.com/ec2/)
+[<img target="_blank" src="https://miro.medium.com/max/1258/1*_HoMKjrWahRiI-JmwYW6zg.png" width=200>](https://scikit-learn.org/stable/) [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://camo.githubusercontent.com/065f065d12a6ba6b2cfcff767aaafd438a7ed5ae615e3ac39051c022cebaa698/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6865726f6b752d312e737667" width=200>](https://aws.amazon.com/ec2/)
 
 
 ## License
